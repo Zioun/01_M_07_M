@@ -1,0 +1,35 @@
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    cursor: pointer;
+}
+.day{
+    font-family: sans-serif;
+    background-color: brown;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.date{
+    font-family: sans-serif;
+    background-color: skyblue;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.date:hover{
+    font-size: 40px;
+    background-color: aqua;
+}
